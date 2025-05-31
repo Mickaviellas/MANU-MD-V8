@@ -1,0 +1,21 @@
+{
+ "name": "🧚‍♀️𝗠𝗔𝗡𝗨-𝗠𝗗-𝗩➑💗",
+  "description": "Javascript WhatsApp bot made by Manul Official",
+  "logo": "https://manul-official-new-api-site.vercel.app/manu-md",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+    "env": {
+        "SESSION_ID": {
+            "description": "Type the Session-ID you got from pair or scan qr.",
+            "required": true,
+            "value": "put session id here"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
